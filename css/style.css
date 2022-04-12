@@ -1,0 +1,157 @@
+body {
+    background: #000;
+    width: 700px;
+    margin: 30px auto;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+}
+
+#buttonsContainer {
+    text-align: center;
+}
+
+#buttonsContainer button {
+    padding: 10px 20px;
+    background: #000;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 20px;
+    padding: 6px 14px;
+    margin-left: 10px;
+}
+
+#switchImages {
+    display: flex;
+    justify-content: center;
+}
+
+.switchImg {
+    height: 100px;
+    margin-top: 20px;
+}
+
+#timer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 26px;
+}
+
+#board {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    margin: 40px auto;
+    border: 2px solid #fff;
+}
+
+.partOfBoard {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    /* border: 1px solid dodgerblue; */
+}
+
+#overlay {
+    font-family: Helvetica, sans-serif;
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    cursor: pointer;
+    text-align: center;
+}
+
+#overlay #text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+#overlay input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 14px;
+    font-size: 18px;
+    border: 2px solid #444;
+}
+
+#overlay button {
+    padding: 10px;
+    font-size: 18px;
+    background: #000;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 20px;
+    padding: 6px 14px;
+    margin-left: 10px;
+}
+
+#ranking {
+    display: block;
+    text-align: center;
+    width: 140px;
+    font-size: 18px;
+    font-variant: small-caps;
+    background: #000;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 20px;
+    margin: 20px auto;
+    padding: 6px 14px;
+    font-weight: bold;
+}
+
+.btRanking {
+    margin-top: 100px;
+    background: #000 !important;
+    border-radius: 0 !important;
+    font-size: 16px !important;
+    color: #fff !important;
+    font-weight: bold !important;
+    border: 1px solid #fff;
+}
+
+#tabRanking {
+    width: 80%;
+    margin: 40px auto;
+}
+
+#tabRanking td,
+#tabRanking th {
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 20px;
+    padding: 6px 14px;
+}
+
+#tabRanking th {
+    font-weight: bold;
+    text-align: center;
+}
+
+#allImages {
+    width: 100px;
+    overflow-x: hidden;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#allImages #boxAllImages {
+    width: 300px;
+    float: left;
+}
+
+#allImages #boxAllImages img {
+    width: 100px;
+}
